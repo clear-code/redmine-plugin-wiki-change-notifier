@@ -1,3 +1,3 @@
 <hr />
-<pre><%= @wiki_content.text %></pre>
+<pre><%= @wiki_content.text.dup.force_encoding("UTF-8") %></pre>
 <hr />
