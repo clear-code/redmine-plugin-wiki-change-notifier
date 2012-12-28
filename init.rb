@@ -3,7 +3,7 @@ Redmine::Plugin.register :wiki_change_notifier do
   author 'Kouhei Sutou'
   description 'This is a plugin for Redmine'
   version '1.0.0'
-  url 'https://github.com/kou/redmin-plugin-wiki-change-notifier'
+  url 'https://github.com/kou/redmine-plugin-wiki-change-notifier'
   author_url 'https://github.com/kou/'
 end
 
