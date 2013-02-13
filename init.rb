@@ -32,7 +32,7 @@ module UnifiedDiffable
         next unless old_hunk
 
         if (n_lines > 0) and hunk.overlaps?(old_hunk)
-          hunk.unshift(old_hunk)
+          hunk.merge(old_hunk)
         else
           unified_diff << old_hunk.diff(format)
         end
