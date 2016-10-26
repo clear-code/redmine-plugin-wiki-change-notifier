@@ -1,10 +1,10 @@
 Redmine::Plugin.register :wiki_change_notifier do
-  name 'Wiki Change Notifier plugin'
-  author 'Kouhei Sutou'
-  description 'Notify Wiki change by e-mail'
-  version '1.0.0'
-  url 'https://github.com/clear-code/redmine-plugin-wiki-change-notifier'
-  author_url 'https://github.com/kou/'
+  name "Wiki Change Notifier plugin"
+  author "Kouhei Sutou"
+  description "Notify Wiki change by e-mail"
+  version "1.0.0"
+  url "https://github.com/clear-code/redmine-plugin-wiki-change-notifier"
+  author_url "https://github.com/kou/"
 end
 
 require "diff/lcs"
